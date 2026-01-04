@@ -130,7 +130,6 @@ document.addEventListener('keyup', e => {
   switch(e.code) {
     case 'ArrowUp':
     case 'KeyW':
-      console.log('sounds: ', sounds);
       playSound(sounds.muncher.step);
       muncher.isWalking = 'up';
       break;
