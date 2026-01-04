@@ -1,0 +1,54 @@
+
+//TODO:
+//+1. prepare numbers to go in grid (5 x 5) total 25
+//+2. prepare correct answers in an array (10 answers)
+//+2. muncher in grid coords
+//+3. badguy in grid coords and ticks until new space
+//
+//+4. show numbers in white,  muncher and badguy [muncher w green border, badguy w red border, none when traveling.]
+//+4 and a half. show numbers left, and correct answers left, and score! (score is based on correct answers times 50)
+//+also 3 lives.
+//
+//+5. move your character using arrow keys, in grid
+//+6. move badguy, randomly for now...
+//+7. spacebar to eat number, (takes time to eat the number... munch munch, delete number in grid...)
+//
+//+9. if the monster is on the same square, then you lose a life and your character is moved to the corner furthest from the monster
+//
+//+10. Add score! 50 + number of correct answers * 20 - numberofNumbers left, thus far.
+//+11. when the last correct number is eaten, go to score screen! (it'll have a next level button [restart for now])
+//+12. give a bonus score based on time! 100 - seconds, times 10.
+/+/13. restart game on any key. Reseting all variables
+
+// ADD ANIMATIONS
+ +1. (muncher) eating animation
+ +2. (muncher) walking animation
+ +3. (muncher) licked face
+ +4. (badguy) licking animation
+ +5. (badguy) walking animation
+
+ +- copy frame code from sophies-playground
+
+ +6. add in eating animation
+ +7. add in walking animation (and duration to walk to squares...)
+ +8. add in licking animation
+//
+// Add Sound Effects
+ +1. walking (1, 2, 1, 2, 1, 2) change the duration if needed to make it sound alright
+ +2. munching (munch munch munch) change duration is necessary
+ +3. licking (liiiiick) change duration is necessary
+ +4. victory fanfare
+//
+
+//TODO TODO
+GITHUB! pages.io!! gifted under tree with URL
+
+
+
+// maybe have a high score, locally stored
+-  if wrong number, then the monster exclaims above, then changes to moving towards the player, still slowly.
+- add touch controls, 4 quadrants of screen to move up, down, left, right, middle to eat.
+//maybe the monster slowly speeds up over time?
+// maybe the muncher licks the numbers?
+// maybe a random element: if the monster licks the number, it's worth less points?
+// !! have a helper, "loves" "little hearts floating" the correct answer. Uses points.
